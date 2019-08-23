@@ -1,0 +1,207 @@
+/* Navigation Bar */
+nav{
+    background-color:green;
+    height:10vh;
+    position:sticky;
+    top:0px;
+}
+
+/* body */
+body{
+    background-image: url("./../images/background.jpg");
+}
+
+/* Title Card container */
+.title{
+    height:10vh;
+    float:left;
+    display:table;
+    margin-left:10px;
+}
+
+/* Title Card text */
+.title-text{
+    display:table-cell;
+    vertical-align:middle;
+    height:10vh;
+}
+
+/* Links container */
+.nav-item{
+    display:table-cell;
+    padding-right:10px;
+    height:10vh;
+    vertical-align: middle;
+}
+
+a:hover{
+    background-color:yellow;
+}
+
+/* Individual Links */
+.nav-items{
+    float:right;
+    display:table;
+    vertical-align: 10vh;
+    background-color:red;
+    padding-left: 10px;
+}
+
+/* content container */
+.content{
+    background-color:transparent;
+    min-height:80vh;
+    border-left-color:grey;
+    border-right-color:grey;
+    border-left-style:solid;
+    border-right-style:solid;
+    position:relative;
+}
+
+/* framing box */
+.box{
+    background-color: #fff;
+    width: 80vw;
+    height: 70vh;
+    position:absolute;
+    top:50%;
+    right:50%;
+    transform:translate(50%,-50%);
+    overflow:auto;
+}
+
+/* Profile Pic location*/
+.profilepic{
+    float:left;
+    padding:10px;
+}
+
+/* Text for profile page and contact */
+.text{
+    margin:30px;
+}
+
+/* It's a footer. You know what a footer does */
+.footer{
+    background-color:blue;
+    height:10vh;
+    position:sticky;
+    bottom:0px;
+}
+
+/* Message to be delivered on contact page */
+.message{
+    /* height:300px; */
+    word-wrap:break-word;
+    vertical-align:top;
+}
+
+input{
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
+    float:left;
+}
+
+textarea{
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
+    float:left;
+}
+
+.about_me_text{
+    padding-left:30px;
+}
+
+.portfoliogrid{
+    display:grid;
+    position: absolute;
+    right:50%;
+    grid-auto-columns: auto;
+    grid-template-columns:2;
+    width:50px;
+    grid-gap:10px;
+    grid-template-rows:4;
+}
+
+.project1{
+    grid-column:1;
+    grid-row:1;
+    text-align:right;
+    border-color:blue;
+    border-width:5px;
+    border-style:groove;
+
+}
+
+.project2{
+    grid-column:2;
+    grid-row:1;
+    border-color:black;
+    border-width:5px;
+    border-style:groove;
+}
+
+.project3{
+    grid-column:1;
+    grid-row:2;
+    text-align:right;
+    border-color:black;
+    border-width:5px;
+    border-style:groove;
+}
+
+.project4{
+    grid-column:2;
+    grid-row:2;
+    border-color:blue;
+    border-width:5px;
+    border-style:groove;
+}
+
+.project5{
+    grid-column:1;
+    grid-row:3;
+    text-align:right;
+    border-color:blue;
+    border-width:5px;
+    border-style:groove;
+}
+
+.project6{
+    grid-column:2;
+    grid-row:3;
+    border-color:black;
+    border-width:5px;
+    border-style:groove;
+}
+
+.project7{
+    grid-column:1;
+    grid-row:4;
+    text-align:right;
+    border-color:black;
+    border-width:5px;
+    border-style:groove;
+}
+
+.project8{
+    grid-column:2;
+    grid-row:4;
+    border-color:blue;
+    border-width:5px;
+    border-style:groove;
+}
+
+
+
+/* couldn't get this to work */
+/* .contact_logo{
+    float:right;
+    width:35vw;
+    position: relative;
+    top:200;
+} */
+
+/* Holy crap, you actually read to the bottom comment? There isn't anything below this; it's totally pointless! Man, having to read through this probably makes you reconsider the whole teaching thing, huh... Well, see you in class! */
