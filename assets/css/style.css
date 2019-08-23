@@ -79,10 +79,8 @@ a:hover{
 
 /* Text for profile page and contact */
 .text{
-    margin:30px;
+    margin:0px;
 }
-
-
 
 /* Message to be delivered on contact page */
 .message{
@@ -98,6 +96,7 @@ input{
     float:left;
 }
 
+/* forcing borders for contact>message*/
 textarea{
     border-style:solid;
     border-color:black;
@@ -206,12 +205,21 @@ textarea{
     bottom:0px;
 }
 
-/* couldn't get this to work */
-/* .contact_logo{
+/* positioning the contact icon */
+.contactlogo{
     float:right;
-    width:35vw;
-    position: relative;
-    top:200;
-} */
+    width:30%;
+    transform:translate(-30%,70%);
+
+}
+
+/* positioning the contact form*/
+form{
+    margin:0px;
+    float:left;
+    max-width:50%;
+    transform:translate(15%,70%);
+
+}
 
 /* Holy crap, you actually read to the bottom comment? There isn't anything below this; it's totally pointless! Man, having to read through this probably makes you reconsider the whole teaching thing, huh... Well, see you in class! */
