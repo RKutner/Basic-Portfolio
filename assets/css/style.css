@@ -34,6 +34,7 @@ body{
     vertical-align: middle;
 }
 
+/* Changes background color for links when moused over */
 a:hover{
     background-color:yellow;
 }
@@ -81,13 +82,7 @@ a:hover{
     margin:30px;
 }
 
-/* It's a footer. You know what a footer does */
-.footer{
-    background-color:blue;
-    height:10vh;
-    position:sticky;
-    bottom:0px;
-}
+
 
 /* Message to be delivered on contact page */
 .message{
@@ -110,10 +105,12 @@ textarea{
     float:left;
 }
 
+/* about me header */
 .about_me_text{
     padding-left:30px;
 }
 
+/* Portfolio item container */
 .portfoliogrid{
     display:grid;
     position: absolute;
@@ -125,6 +122,7 @@ textarea{
     grid-template-rows:4;
 }
 
+/* portfolio item */
 .project1{
     grid-column:1;
     grid-row:1;
@@ -143,6 +141,7 @@ textarea{
     border-style:groove;
 }
 
+/* portfolio item */
 .project3{
     grid-column:1;
     grid-row:2;
@@ -152,6 +151,7 @@ textarea{
     border-style:groove;
 }
 
+/* portfolio item */
 .project4{
     grid-column:2;
     grid-row:2;
@@ -160,6 +160,7 @@ textarea{
     border-style:groove;
 }
 
+/* portfolio item */
 .project5{
     grid-column:1;
     grid-row:3;
@@ -169,6 +170,7 @@ textarea{
     border-style:groove;
 }
 
+/* portfolio item */
 .project6{
     grid-column:2;
     grid-row:3;
@@ -177,6 +179,7 @@ textarea{
     border-style:groove;
 }
 
+/* portfolio item */
 .project7{
     grid-column:1;
     grid-row:4;
@@ -186,6 +189,7 @@ textarea{
     border-style:groove;
 }
 
+/* portfolio item */
 .project8{
     grid-column:2;
     grid-row:4;
@@ -194,7 +198,13 @@ textarea{
     border-style:groove;
 }
 
-
+/* It's a footer. You know what a footer does */
+.footer{
+    background-color:blue;
+    height:10vh;
+    position:sticky;
+    bottom:0px;
+}
 
 /* couldn't get this to work */
 /* .contact_logo{
